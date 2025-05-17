@@ -16,6 +16,10 @@ client.on("ready", () => {
 
 client.on("messageCreate", async (message) => {
   if (message.author.bot) return;
+
+  // Check if the bot was mentioned in the message
+  if (!message.mentions.has(client.user.id)) return;
+
   console.log(`[${message.author.username}] ${message.content}`);
 
   try {
