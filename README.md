@@ -7,17 +7,19 @@ Bot oficial del servidor **eCF-Dominicana** en Discord. Proporciona herramientas
 ## Comandos
 
 ### `/dgii_status`
+
 Consulta el estado de los servicios de la DGII.
 
-| Opción | Descripción |
-|--------|-------------|
-| `ObtenerEstatus` | Obtiene el estatus de todos los servicios |
-| `ObtenerVentanasMantenimiento` | Lista las ventanas de mantenimiento programadas |
-| `VerificarEstado` | Verifica el estado de un ambiente específico (PreCertificación, Certificación, Producción) |
+| Opción                         | Descripción                                                                                |
+| ------------------------------ | ------------------------------------------------------------------------------------------ |
+| `ObtenerEstatus`               | Obtiene el estatus de todos los servicios                                                  |
+| `ObtenerVentanasMantenimiento` | Lista las ventanas de mantenimiento programadas                                            |
+| `VerificarEstado`              | Verifica el estado de un ambiente específico (PreCertificación, Certificación, Producción) |
 
 ---
 
 ### `/validar_xml`
+
 Valida un archivo XML de e-CF adjuntando el archivo directamente al comando.
 
 - Adjunta el archivo `.xml` en el campo `archivo`
@@ -27,6 +29,7 @@ Valida un archivo XML de e-CF adjuntando el archivo directamente al comando.
 ---
 
 ### `/validar_xml_reply`
+
 Valida el XML adjunto de un mensaje reciente en el canal.
 
 - Escanea los últimos 10 mensajes buscando un archivo `.xml`
@@ -37,6 +40,7 @@ Valida el XML adjunto de un mensaje reciente en el canal.
 ---
 
 ### Menú contextual — `Validar XML`
+
 Valida el XML adjunto de un mensaje específico.
 
 1. Clic derecho (o mantén presionado en móvil) sobre el mensaje con el `.xml`
